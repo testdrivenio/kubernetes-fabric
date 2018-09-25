@@ -1,6 +1,6 @@
-# Creating a Kubernetes Cluster on DigitalOcean with Python and Flask
+# Creating a Kubernetes Cluster on DigitalOcean with Python and Fabric
 
-Check out the [blog post]().
+Check out the [blog post](https://testdriven.io/creating-a-kubernetes-cluster-on-digitalocean).
 
 ## Want to use this project?
 
