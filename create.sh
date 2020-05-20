@@ -2,21 +2,21 @@
 
 
 echo "Creating droplets..."
-fab create_droplets
-fab wait_for_droplets
+fab create-droplets
+fab wait-for-droplets
 sleep 20
 
 echo "Provision the droplets..."
-fab get_addresses:all provision_machines
+fab get-addresses --type=all provision-machines
 
 
 echo "Configure the master..."
-fab get_addresses:master create_cluster
+fab get-addresses --type=master create-cluster
 
 
 echo "Configure the workers..."
-fab get_addresses:workers configure_worker_node
+fab get-addresses --type=workers configure-worker-node
 sleep 20
 
 echo "Running a sanity check..."
-fab get_addresses:master get_nodes
+fab get-addresses --type=master get-nodes
