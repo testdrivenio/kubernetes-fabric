@@ -1,2 +1,2 @@
-fabric==2.5.0
-python-digitalocean==1.15.0
+fabric==2.6.0
+python-digitalocean==1.17.0
